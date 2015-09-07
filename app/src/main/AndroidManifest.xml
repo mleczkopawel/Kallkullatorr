@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zme_cbr.kallkullatorr" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GeometryActivity"
+            android:label="@string/title_activity_geometry" >
+        </activity>
+        <activity
+            android:name=".KwadratActivity"
+            android:label="@string/title_activity_kwadrat" >
+        </activity>
+        <activity
+            android:name=".TrojkatActivity"
+            android:label="@string/title_activity_trojkat" >
+        </activity>
+        <activity
+            android:name=".TrapezActivity"
+            android:label="@string/title_activity_trapez" >
+        </activity>
+        <activity
+            android:name=".kolo.KoloActivity"
+            android:label="@string/title_activity_kolo" >
+        </activity>
+        <activity
+            android:name=".wzory_kwadrat"
+            android:label="@string/title_activity_wzory_kwadrat" >
+        </activity>
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name=".kolo.wzory_kolo"
+            android:label="@string/title_activity_wzory_kolo" >
+        </activity>
+        <activity
+            android:name=".kolo.kolo_pole"
+            android:label="@string/title_activity_kolo_pole" >
+        </activity>
+    </application>
+
+</manifest>
