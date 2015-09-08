@@ -54,6 +54,7 @@
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
+                android:onClick="obwod"
                 android:text="Obwód" />
 
             <Button
@@ -61,6 +62,7 @@
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
+                android:onClick="pr_ok_wpi"
                 android:text="Promień okręgu wpisanego" />
 
             <Button
@@ -68,6 +70,7 @@
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
+                android:onClick="pr_ok_opia"
                 android:text="Promień okręgu opisanego (a)" />
 
             <Button
@@ -75,6 +78,7 @@
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
+                android:onClick="pr_ok_opir"
                 android:text="Promień okręgu opisanego (r)" />
 
             <Button
@@ -82,6 +86,7 @@
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
+                android:onClick="pr_ok_opid"
                 android:text="Promień okręgu opisanego (d)" />
 
             <Button
