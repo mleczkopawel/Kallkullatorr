@@ -76,16 +76,19 @@
             android:label="@string/title_activity_kwadrat_pr_ok_opid" />
         <activity
             android:name=".kwadrat.kwadrat_dlu_bokr"
-            android:label="@string/title_activity_kwadrat_dlu_bokr"></activity>
+            android:label="@string/title_activity_kwadrat_dlu_bokr" />
         <activity
             android:name=".kwadrat.kwadrat_dlu_bokrr"
-            android:label="@string/title_activity_kwadrat_dlu_bokrr"></activity>
+            android:label="@string/title_activity_kwadrat_dlu_bokrr" />
         <activity
             android:name=".kwadrat.kwadrat_dlu_bokd"
-            android:label="@string/title_activity_kwadrat_dlu_bokd"></activity>
+            android:label="@string/title_activity_kwadrat_dlu_bokd" />
         <activity
             android:name=".kwadrat.kwadrat_przek"
-            android:label="@string/title_activity_kwadrat_przek"></activity>
+            android:label="@string/title_activity_kwadrat_przek" />
+        <activity
+            android:name=".kwadrat.kwadrat_obwod"
+            android:label="@string/title_activity_kwadrat_obwod"></activity>
     </application>
 
 </manifest>
