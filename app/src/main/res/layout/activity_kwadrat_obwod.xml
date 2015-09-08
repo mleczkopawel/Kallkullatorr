@@ -6,7 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.zme_cbr.kallkullatorr.kwadrat.kwadrat_dlu_bok">
+    tools:context="com.example.zme_cbr.kallkullatorr.kwadrat.kwadrat_obwod">
 
 
     <ImageView
@@ -78,11 +78,12 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView17"
+        android:layout_alignLeft="@+id/imageView4"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_alignStart="@+id/textView17"
+        android:layout_alignStart="@+id/imageView4"
+        android:inputType="number"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>

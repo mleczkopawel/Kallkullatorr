@@ -124,4 +124,10 @@ public class KwadratActivity extends AppCompatActivity {
         Intent intent = new Intent(context, kwadrat_przek.class);
         startActivity(intent);
     }
+
+    public void obwod(View view) {
+        context = getApplicationContext();
+        Intent intent = new Intent(context, kwadrat_obwod.class);
+        startActivity(intent);
+    }
 }
