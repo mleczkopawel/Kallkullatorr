@@ -76,11 +76,6 @@ public class KwadratActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void obwod(View view) {
-        context = getApplicationContext();
-        Intent intent = new Intent(context, kwadrat_obwod.class);
-        startActivity(intent);
-    }
 
     public void pr_ok_wpi(View view) {
         context = getApplicationContext();

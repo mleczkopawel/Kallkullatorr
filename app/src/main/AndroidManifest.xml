@@ -63,9 +63,6 @@
             android:name=".kwadrat.kwadrat_polead"
             android:label="@string/title_activity_kwadrat_polead" />
         <activity
-            android:name=".kwadrat.kwadrat_obwod"
-            android:label="@string/title_activity_kwadrat_obwod" />
-        <activity
             android:name=".kwadrat.kwadrat_pr_ok_wpi"
             android:label="@string/title_activity_kwadrat_pr_ok_wpi" />
         <activity
