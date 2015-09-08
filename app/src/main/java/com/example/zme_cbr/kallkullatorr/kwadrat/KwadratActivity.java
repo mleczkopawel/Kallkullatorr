@@ -75,4 +75,34 @@ public class KwadratActivity extends AppCompatActivity {
         Intent intent = new Intent(context, kwadrat_polead.class);
         startActivity(intent);
     }
+
+    public void obwod(View view) {
+        context = getApplicationContext();
+        Intent intent = new Intent(context, kwadrat_obwod.class);
+        startActivity(intent);
+    }
+
+    public void pr_ok_wpi(View view) {
+        context = getApplicationContext();
+        Intent intent = new Intent(context, kwadrat_pr_ok_wpi.class);
+        startActivity(intent);
+    }
+
+    public void pr_ok_opia(View view) {
+        context = getApplicationContext();
+        Intent intent = new Intent(context, kwadrat_pr_ok_opia.class);
+        startActivity(intent);
+    }
+
+    public void pr_ok_opir(View view) {
+        context = getApplicationContext();
+        Intent intent = new Intent(context, kwadrat_pr_ok_opir.class);
+        startActivity(intent);
+    }
+
+    public void pr_ok_opid(View view) {
+        context = getApplicationContext();
+        Intent intent = new Intent(context, kwadrat_pr_ok_opid.class);
+        startActivity(intent);
+    }
 }
