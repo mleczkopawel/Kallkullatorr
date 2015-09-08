@@ -39,4 +39,9 @@
     <string name="title_activity_kwadrat_polea">kwadrat_polea</string>
     <string name="title_activity_kwadrat_poled">kwadrat_poled</string>
     <string name="title_activity_kwadrat_polead">kwadrat_polead</string>
+    <string name="title_activity_kwadrat_obwod">Kwadrat_obwod</string>
+    <string name="title_activity_kwadrat_pr_ok_wpi">kwadrat_pr_ok_wpi</string>
+    <string name="title_activity_kwadrat_pr_ok_opia">kwadrat_pr_ok_opia</string>
+    <string name="title_activity_kwadrat_pr_ok_opir">kwadrat_pr_ok_opir</string>
+    <string name="title_activity_kwadrat_pr_ok_opid">kwadrat_pr_ok_opid</string>
 </resources>

@@ -58,10 +58,25 @@
         </activity>
         <activity
             android:name=".kwadrat.kwadrat_poled"
-            android:label="@string/title_activity_kwadrat_poled"></activity>
+            android:label="@string/title_activity_kwadrat_poled" />
         <activity
             android:name=".kwadrat.kwadrat_polead"
-            android:label="@string/title_activity_kwadrat_polead"></activity>
+            android:label="@string/title_activity_kwadrat_polead" />
+        <activity
+            android:name=".kwadrat.kwadrat_obwod"
+            android:label="@string/title_activity_kwadrat_obwod"></activity>
+        <activity
+            android:name=".kwadrat.kwadrat_pr_ok_wpi"
+            android:label="@string/title_activity_kwadrat_pr_ok_wpi"></activity>
+        <activity
+            android:name=".kwadrat.kwadrat_pr_ok_opia"
+            android:label="@string/title_activity_kwadrat_pr_ok_opia"></activity>
+        <activity
+            android:name=".kwadrat.kwadrat_pr_ok_opir"
+            android:label="@string/title_activity_kwadrat_pr_ok_opir"></activity>
+        <activity
+            android:name=".kwadrat.kwadrat_pr_ok_opid"
+            android:label="@string/title_activity_kwadrat_pr_ok_opid"></activity>
     </application>
 
 </manifest>
