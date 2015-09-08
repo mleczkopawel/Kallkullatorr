@@ -15,24 +15,26 @@ import com.example.zme_cbr.kallkullatorr.MainActivity;
 import com.example.zme_cbr.kallkullatorr.R;
 import com.example.zme_cbr.kallkullatorr.Settings;
 
-public class kwadrat_polea extends AppCompatActivity {
-    Context context;
-    EditText editText;
+public class kwadrat_poled extends AppCompatActivity {
     TextView textView;
-    String as;
-    double a, S;
+    EditText editText;
+    String ds;
+    Context context;
+    double d, S;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_kwadrat_polea);
-        editText = (EditText) findViewById(R.id.editText);
+        setContentView(R.layout.activity_kwadrat_poled);
         textView = (TextView) findViewById(R.id.textView);
+        editText = (EditText) findViewById(R.id.editText);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu, menu);
+
         return true;
     }
 
@@ -42,9 +44,7 @@ public class kwadrat_polea extends AppCompatActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings){
+        if (id == R.id.action_settings) {
             context = getApplicationContext();
             Intent intent = new Intent(context, Settings.class);
             startActivity(intent);
@@ -54,7 +54,7 @@ public class kwadrat_polea extends AppCompatActivity {
             Intent intent = new Intent(context, GeometryActivity.class);
             startActivity(intent);
         }
-        if (id == R.id.action_calc){
+        if (id == R.id.action_calc) {
             context = getApplicationContext();
             Intent intent = new Intent(context, MainActivity.class);
             startActivity(intent);
@@ -64,12 +64,12 @@ public class kwadrat_polea extends AppCompatActivity {
 
     public void oblicz(View view) {
         try {
-            as = editText.getText().toString();
-            a = Double.valueOf(as);
-        } catch (NumberFormatException as) {
+            ds = editText.getText().toString();
+            d = Double.valueOf(ds);
+        } catch (NumberFormatException ds) {
             return;
         }
-        S = a * a;
-        textView.setText(String.valueOf(S) + "cm2");
+        S = (d * d) / 2;
+        textView.setText(String.valueOf(S) + " cm2");
     }
 }

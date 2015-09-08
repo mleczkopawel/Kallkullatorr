@@ -56,6 +56,12 @@
             android:name=".kwadrat.kwadrat_polea"
             android:label="@string/title_activity_kwadrat_polea" >
         </activity>
+        <activity
+            android:name=".kwadrat.kwadrat_poled"
+            android:label="@string/title_activity_kwadrat_poled"></activity>
+        <activity
+            android:name=".kwadrat.kwadrat_polead"
+            android:label="@string/title_activity_kwadrat_polead"></activity>
     </application>
 
 </manifest>

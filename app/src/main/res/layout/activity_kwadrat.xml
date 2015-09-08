@@ -1,10 +1,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.example.zme_cbr.kallkullatorr.kwadrat.KwadratActivity">
 
     <ScrollView
@@ -12,102 +13,104 @@
         android:layout_height="fill_parent">
 
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
             <Button
+                android:id="@+id/button10"
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/examples"
-                android:id="@+id/button10"
-                android:onClick="wzory"/>
+                android:onClick="wzory"
+                android:text="@string/examples" />
 
             <Button
-                style="?android:attr/buttonStyleSmall"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:text="Pole powierzchni (a)"
                 android:id="@+id/button11"
-                android:onClick="polea"/>
-
-            <Button
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="Pole powierzchni (d)"
-                android:id="@+id/button12" />
+                android:onClick="polea"
+                android:text="Pole powierzchni (a)" />
 
             <Button
+                android:id="@+id/button12"
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="Pole powierzchni (a,d)"
-                android:id="@+id/button13" />
+                android:onClick="poled"
+                android:text="Pole powierzchni (d)" />
 
             <Button
+                android:id="@+id/button13"
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="Obwód"
-                android:id="@+id/button14" />
+                android:onClick="polead"
+                android:text="Pole powierzchni (a,d)" />
 
             <Button
+                android:id="@+id/button14"
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="Promień okręgu wpisanego"
-                android:id="@+id/button15" />
+                android:text="Obwód" />
 
             <Button
+                android:id="@+id/button15"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Promień okręgu wpisanego" />
+
+            <Button
+                android:id="@+id/button16"
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
-                android:text="Promień okręgu opisanego (a)"
-                android:id="@+id/button16" />
+                android:text="Promień okręgu opisanego (a)" />
 
             <Button
+                android:id="@+id/button17"
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Promień okręgu opisanego (r)"
-                android:id="@+id/button17" />
+                android:text="Promień okręgu opisanego (r)" />
 
             <Button
+                android:id="@+id/button28"
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Promień okręgu opisanego (d)"
-                android:id="@+id/button28" />
+                android:text="Promień okręgu opisanego (d)" />
 
             <Button
+                android:id="@+id/button29"
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Długość boku (r)"
-                android:id="@+id/button29" />
+                android:text="Długość boku (r)" />
 
             <Button
+                android:id="@+id/button30"
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Długość boku (R)"
-                android:id="@+id/button30" />
+                android:text="Długość boku (R)" />
 
             <Button
+                android:id="@+id/button31"
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Długość boku (d)"
-                android:id="@+id/button31" />
+                android:text="Długość boku (d)" />
 
             <Button
+                android:id="@+id/button32"
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Długość przekątnej"
-                android:id="@+id/button32" />
+                android:text="Długość przekątnej" />
 
         </LinearLayout>
     </ScrollView>

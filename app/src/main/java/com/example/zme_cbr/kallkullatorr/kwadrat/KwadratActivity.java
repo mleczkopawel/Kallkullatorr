@@ -1,10 +1,12 @@
 package com.example.zme_cbr.kallkullatorr.kwadrat;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
-import android.view.*;
-import android.widget.*;
-import android.content.*;
+import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
 
 import com.example.zme_cbr.kallkullatorr.GeometryActivity;
 import com.example.zme_cbr.kallkullatorr.MainActivity;
@@ -57,5 +59,20 @@ public class KwadratActivity extends AppCompatActivity {
     }
 
     public void polea(View view) {
+        context = getApplicationContext();
+        Intent intent = new Intent(context, kwadrat_polea.class);
+        startActivity(intent);
+    }
+
+    public void poled(View view) {
+        context = getApplicationContext();
+        Intent intent = new Intent(context, kwadrat_poled.class);
+        startActivity(intent);
+    }
+
+    public void polead(View view) {
+        context = getApplicationContext();
+        Intent intent = new Intent(context, kwadrat_polead.class);
+        startActivity(intent);
     }
 }

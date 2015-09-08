@@ -37,4 +37,6 @@
     <string name="title_activity_kolo_pole">kolo_pole</string>
     <string name="title_activity_kwadrat_wzory">kwadrat_wzory</string>
     <string name="title_activity_kwadrat_polea">kwadrat_polea</string>
+    <string name="title_activity_kwadrat_poled">kwadrat_poled</string>
+    <string name="title_activity_kwadrat_polead">kwadrat_polead</string>
 </resources>
