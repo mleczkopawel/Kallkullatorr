@@ -44,4 +44,8 @@
     <string name="title_activity_kwadrat_pr_ok_opia">kwadrat_pr_ok_opia</string>
     <string name="title_activity_kwadrat_pr_ok_opir">kwadrat_pr_ok_opir</string>
     <string name="title_activity_kwadrat_pr_ok_opid">kwadrat_pr_ok_opid</string>
+    <string name="title_activity_kwadrat_dlu_bokr">kwadrat_dlu_bokr</string>
+    <string name="title_activity_kwadrat_dlu_bokrr">kwadrat_dlu_bokrr</string>
+    <string name="title_activity_kwadrat_dlu_bokd">kwadrat_dlu_bokd</string>
+    <string name="title_activity_kwadrat_przek">kwadrat_przek</string>
 </resources>

@@ -64,19 +64,31 @@
             android:label="@string/title_activity_kwadrat_polead" />
         <activity
             android:name=".kwadrat.kwadrat_obwod"
-            android:label="@string/title_activity_kwadrat_obwod"></activity>
+            android:label="@string/title_activity_kwadrat_obwod" />
         <activity
             android:name=".kwadrat.kwadrat_pr_ok_wpi"
-            android:label="@string/title_activity_kwadrat_pr_ok_wpi"></activity>
+            android:label="@string/title_activity_kwadrat_pr_ok_wpi" />
         <activity
             android:name=".kwadrat.kwadrat_pr_ok_opia"
-            android:label="@string/title_activity_kwadrat_pr_ok_opia"></activity>
+            android:label="@string/title_activity_kwadrat_pr_ok_opia" />
         <activity
             android:name=".kwadrat.kwadrat_pr_ok_opir"
-            android:label="@string/title_activity_kwadrat_pr_ok_opir"></activity>
+            android:label="@string/title_activity_kwadrat_pr_ok_opir" />
         <activity
             android:name=".kwadrat.kwadrat_pr_ok_opid"
-            android:label="@string/title_activity_kwadrat_pr_ok_opid"></activity>
+            android:label="@string/title_activity_kwadrat_pr_ok_opid" />
+        <activity
+            android:name=".kwadrat.kwadrat_dlu_bokr"
+            android:label="@string/title_activity_kwadrat_dlu_bokr"></activity>
+        <activity
+            android:name=".kwadrat.kwadrat_dlu_bokrr"
+            android:label="@string/title_activity_kwadrat_dlu_bokrr"></activity>
+        <activity
+            android:name=".kwadrat.kwadrat_dlu_bokd"
+            android:label="@string/title_activity_kwadrat_dlu_bokd"></activity>
+        <activity
+            android:name=".kwadrat.kwadrat_przek"
+            android:label="@string/title_activity_kwadrat_przek"></activity>
     </application>
 
 </manifest>

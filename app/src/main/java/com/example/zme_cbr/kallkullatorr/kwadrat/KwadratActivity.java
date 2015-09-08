@@ -105,4 +105,28 @@ public class KwadratActivity extends AppCompatActivity {
         Intent intent = new Intent(context, kwadrat_pr_ok_opid.class);
         startActivity(intent);
     }
+
+    public void dlu_bokr(View view) {
+        context = getApplicationContext();
+        Intent intent = new Intent(context, kwadrat_dlu_bokr.class);
+        startActivity(intent);
+    }
+
+    public void dlu_bokrr(View view) {
+        context = getApplicationContext();
+        Intent intent = new Intent(context, kwadrat_dlu_bokrr.class);
+        startActivity(intent);
+    }
+
+    public void dlu_bokd(View view) {
+        context = getApplicationContext();
+        Intent intent = new Intent(context, kwadrat_dlu_bokd.class);
+        startActivity(intent);
+    }
+
+    public void przek(View view) {
+        context = getApplicationContext();
+        Intent intent = new Intent(context, kwadrat_przek.class);
+        startActivity(intent);
+    }
 }
