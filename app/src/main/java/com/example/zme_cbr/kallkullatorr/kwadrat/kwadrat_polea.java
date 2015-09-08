@@ -1,16 +1,22 @@
-package com.example.zme_cbr.kallkullatorr;
+package com.example.zme_cbr.kallkullatorr.kwadrat;
 
 import android.content.*;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.*;
+import android.view.Menu;
+import android.view.MenuItem;
 
-public class wzory_kwadrat extends AppCompatActivity {
+import com.example.zme_cbr.kallkullatorr.GeometryActivity;
+import com.example.zme_cbr.kallkullatorr.MainActivity;
+import com.example.zme_cbr.kallkullatorr.R;
+import com.example.zme_cbr.kallkullatorr.Settings;
+
+public class kwadrat_polea extends AppCompatActivity {
     Context context;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_wzory_kwadrat);
+        setContentView(R.layout.activity_kwadrat_polea);
     }
 
     @Override

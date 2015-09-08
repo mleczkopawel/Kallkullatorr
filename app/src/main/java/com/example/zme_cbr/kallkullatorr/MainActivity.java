@@ -204,32 +204,35 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
         else if (v.getId() == R.id.buttonSqrt)
             showsign("√");
         else if (v.getId() == R.id.buttonR){
-            Double newNumber = Double.parseDouble(view1.getText().toString());
-            if (sign_flag == "+"){
-                total = total + newNumber;
-                view1.setText(total.toString());
+            try {
+                Double newNumber = Double.parseDouble(view1.getText().toString());
+                if (sign_flag == "+") {
+                    total = total + newNumber;
+                    view1.setText(total.toString());
+                }
+                if (sign_flag == "-") {
+                    total = total - newNumber;
+                    view1.setText(total.toString());
+                }
+                if (sign_flag == "*") {
+                    total = total * newNumber;
+                    view1.setText(total.toString());
+                }
+                if (sign_flag == "/") {
+                    total = total / newNumber;
+                    view1.setText(total.toString());
+                }
+                if (sign_flag == "%") {
+                    total = (total / newNumber) * 100;
+                    view1.setText(total.toString() + "%");
+                }
+                if (sign_flag == "√") {
+                    total = Math.sqrt(newNumber);
+                    view1.setText(total.toString());
+                }
+                sign_flag = "=";
             }
-            if (sign_flag == "-"){
-                total = total - newNumber;
-                view1.setText(total.toString());
-            }
-            if (sign_flag == "*"){
-                total = total * newNumber;
-                view1.setText(total.toString());
-            }
-            if (sign_flag == "/"){
-                total = total / newNumber;
-                view1.setText(total.toString());
-            }
-            if (sign_flag == "%"){
-                total = (total/newNumber)*100;
-                view1.setText(total.toString()+"%");
-            }
-            if (sign_flag == "√"){
-                total = Math.sqrt(newNumber);
-                view1.setText(total.toString());
-            }
-            sign_flag = "=";
+            catch(NumberFormatException total){return;}
         }
     }
 }

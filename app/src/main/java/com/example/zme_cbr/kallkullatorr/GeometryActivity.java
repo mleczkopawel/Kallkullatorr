@@ -6,6 +6,7 @@ import android.view.*;
 import android.content.*;
 
 import com.example.zme_cbr.kallkullatorr.kolo.KoloActivity;
+import com.example.zme_cbr.kallkullatorr.kwadrat.KwadratActivity;
 
 public class GeometryActivity extends AppCompatActivity{
     Context context;

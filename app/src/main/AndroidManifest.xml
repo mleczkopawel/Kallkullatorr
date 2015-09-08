@@ -21,7 +21,7 @@
             android:label="@string/title_activity_geometry" >
         </activity>
         <activity
-            android:name=".KwadratActivity"
+            android:name=".kwadrat.KwadratActivity"
             android:label="@string/title_activity_kwadrat" >
         </activity>
         <activity
@@ -37,10 +37,6 @@
             android:label="@string/title_activity_kolo" >
         </activity>
         <activity
-            android:name=".wzory_kwadrat"
-            android:label="@string/title_activity_wzory_kwadrat" >
-        </activity>
-        <activity
             android:name=".Settings"
             android:label="@string/title_activity_settings" >
         </activity>
@@ -51,6 +47,14 @@
         <activity
             android:name=".kolo.kolo_pole"
             android:label="@string/title_activity_kolo_pole" >
+        </activity>
+        <activity
+            android:name=".kwadrat.kwadrat_wzory"
+            android:label="@string/title_activity_kwadrat_wzory" >
+        </activity>
+        <activity
+            android:name=".kwadrat.kwadrat_polea"
+            android:label="@string/title_activity_kwadrat_polea" >
         </activity>
     </application>
 

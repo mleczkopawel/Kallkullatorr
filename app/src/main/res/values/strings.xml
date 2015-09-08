@@ -35,4 +35,6 @@
     <string name="title_activity_settings">Settings</string>
     <string name="title_activity_wzory_kolo">wzory_kolo</string>
     <string name="title_activity_kolo_pole">kolo_pole</string>
+    <string name="title_activity_kwadrat_wzory">kwadrat_wzory</string>
+    <string name="title_activity_kwadrat_polea">kwadrat_polea</string>
 </resources>
