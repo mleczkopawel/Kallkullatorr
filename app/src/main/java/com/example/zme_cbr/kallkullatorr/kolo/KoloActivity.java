@@ -1,21 +1,21 @@
 package com.example.zme_cbr.kallkullatorr.kolo;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
-import android.view.*;
-import android.widget.*;
-import android.content.*;
+import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
 
 import com.example.zme_cbr.kallkullatorr.GeometryActivity;
 import com.example.zme_cbr.kallkullatorr.MainActivity;
 import com.example.zme_cbr.kallkullatorr.R;
 import com.example.zme_cbr.kallkullatorr.Settings;
-import com.example.zme_cbr.kallkullatorr.kolo.kolo_pole;
-import com.example.zme_cbr.kallkullatorr.kolo.wzory_kolo;
 
 public class KoloActivity extends AppCompatActivity {
     Context context;
-    EditText editText,editText2,editText3;
     TextView wynik_view;
     int r;
     String rs;
@@ -24,10 +24,6 @@ public class KoloActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kolo);
-        editText = (EditText)findViewById(R.id.editText);
-        editText2 = (EditText)findViewById(R.id.editText2);
-        editText3 = (EditText)findViewById(R.id.editText3);
-        wynik_view = (TextView)findViewById(R.id.textView_wynik);
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -60,12 +56,6 @@ public class KoloActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
-    public void wynik(View view) {
-        rs = editText.getText().toString();
-        r = Integer.valueOf(rs);
-        wynikw = 3.14*r*r;
-        wynik_view.setText(String.valueOf(wynikw));
-    }
 
     public void wzory(View view) {
         context = getApplicationContext();
@@ -76,6 +66,36 @@ public class KoloActivity extends AppCompatActivity {
     public void pole(View view) {
         context = getApplicationContext();
         Intent intent = new Intent(context, kolo_pole.class);
+        startActivity(intent);
+    }
+
+    public void obwod(View view) {
+        context = getApplicationContext();
+        Intent intent = new Intent(context, kolo_obwod.class);
+        startActivity(intent);
+    }
+
+    public void pol_wyca(View view) {
+        context = getApplicationContext();
+        Intent intent = new Intent(context, kolo_pol_wyca.class);
+        startActivity(intent);
+    }
+
+    public void pol_wycg(View view) {
+        context = getApplicationContext();
+        Intent intent = new Intent(context, kolo_pol_wycg.class);
+        startActivity(intent);
+    }
+
+    public void pol_odca(View view) {
+        context = getApplicationContext();
+        Intent intent = new Intent(context, kolo_pol_odca.class);
+        startActivity(intent);
+    }
+
+    public void pol_odcg(View view) {
+        context = getApplicationContext();
+        Intent intent = new Intent(context, kolo_pol_odcg.class);
         startActivity(intent);
     }
 }
