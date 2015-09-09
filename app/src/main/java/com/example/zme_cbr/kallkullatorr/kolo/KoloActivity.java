@@ -7,7 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.TextView;
 
 import com.example.zme_cbr.kallkullatorr.GeometryActivity;
 import com.example.zme_cbr.kallkullatorr.MainActivity;
@@ -16,10 +15,6 @@ import com.example.zme_cbr.kallkullatorr.Settings;
 
 public class KoloActivity extends AppCompatActivity {
     Context context;
-    TextView wynik_view;
-    int r;
-    String rs;
-    double wynikw;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
