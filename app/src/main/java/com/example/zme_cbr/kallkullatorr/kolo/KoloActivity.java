@@ -98,4 +98,16 @@ public class KoloActivity extends AppCompatActivity {
         Intent intent = new Intent(context, kolo_pol_odcg.class);
         startActivity(intent);
     }
+
+    public void dl_luka(View view) {
+        context = getApplicationContext();
+        Intent intent = new Intent(context, kolo_dl_luka.class);
+        startActivity(intent);
+    }
+
+    public void dl_lukg(View view) {
+        context = getApplicationContext();
+        Intent intent = new Intent(context, kolo_dl_lukg.class);
+        startActivity(intent);
+    }
 }

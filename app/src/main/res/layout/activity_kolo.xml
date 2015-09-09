@@ -109,6 +109,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/button26"
+        android:onClick="dl_luka"
         android:text="Długość łuku okręgu o kącie α°" />
 
     <Button
@@ -121,6 +122,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentStart="true"
+        android:onClick="dl_lukg"
         android:text="Długość łuku okręgu o kącie φ radianów" />
 
 </RelativeLayout>

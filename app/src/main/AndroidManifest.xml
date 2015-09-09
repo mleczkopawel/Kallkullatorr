@@ -91,19 +91,25 @@
             android:label="@string/title_activity_kwadrat_obwod" />
         <activity
             android:name=".kolo.kolo_obwod"
-            android:label="@string/title_activity_kolo_obwod"></activity>
+            android:label="@string/title_activity_kolo_obwod" />
         <activity
             android:name=".kolo.kolo_pol_wyca"
-            android:label="@string/title_activity_kolo_pol_wyca"></activity>
+            android:label="@string/title_activity_kolo_pol_wyca" />
         <activity
             android:name=".kolo.kolo_pol_wycg"
-            android:label="@string/title_activity_kolo_pol_wycg"></activity>
+            android:label="@string/title_activity_kolo_pol_wycg" />
         <activity
             android:name=".kolo.kolo_pol_odca"
-            android:label="@string/title_activity_kolo_pol_odca"></activity>
+            android:label="@string/title_activity_kolo_pol_odca" />
         <activity
             android:name=".kolo.kolo_pol_odcg"
-            android:label="@string/title_activity_kolo_pol_odcg"></activity>
+            android:label="@string/title_activity_kolo_pol_odcg" />
+        <activity
+            android:name=".kolo.kolo_dl_luka"
+            android:label="@string/title_activity_kolo_dl_luka"></activity>
+        <activity
+            android:name=".kolo.kolo_dl_lukg"
+            android:label="@string/title_activity_kolo_dl_lukg"></activity>
     </application>
 
 </manifest>

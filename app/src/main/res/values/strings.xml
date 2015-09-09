@@ -53,4 +53,6 @@
     <string name="title_activity_kolo_pol_wycg">kolo_pol_wycg</string>
     <string name="title_activity_kolo_pol_odca">kolo_pol_odca</string>
     <string name="title_activity_kolo_pol_odcg">kolo_pol_odcg</string>
+    <string name="title_activity_kolo_dl_luka">kolo_dl_luka</string>
+    <string name="title_activity_kolo_dl_lukg">kolo_dl_lukg</string>
 </resources>
