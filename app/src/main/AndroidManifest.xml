@@ -88,7 +88,22 @@
             android:label="@string/title_activity_kwadrat_przek" />
         <activity
             android:name=".kwadrat.kwadrat_obwod"
-            android:label="@string/title_activity_kwadrat_obwod"></activity>
+            android:label="@string/title_activity_kwadrat_obwod" />
+        <activity
+            android:name=".kolo.kolo_obwod"
+            android:label="@string/title_activity_kolo_obwod"></activity>
+        <activity
+            android:name=".kolo.kolo_pol_wyca"
+            android:label="@string/title_activity_kolo_pol_wyca"></activity>
+        <activity
+            android:name=".kolo.kolo_pol_wycg"
+            android:label="@string/title_activity_kolo_pol_wycg"></activity>
+        <activity
+            android:name=".kolo.kolo_pol_odca"
+            android:label="@string/title_activity_kolo_pol_odca"></activity>
+        <activity
+            android:name=".kolo.kolo_pol_odcg"
+            android:label="@string/title_activity_kolo_pol_odcg"></activity>
     </application>
 
 </manifest>
