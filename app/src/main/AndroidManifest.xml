@@ -25,11 +25,11 @@
             android:label="@string/title_activity_kwadrat" >
         </activity>
         <activity
-            android:name=".TrojkatActivity"
+            android:name=".trojkat.TrojkatActivity"
             android:label="@string/title_activity_trojkat" >
         </activity>
         <activity
-            android:name=".TrapezActivity"
+            android:name=".trapez.TrapezActivity"
             android:label="@string/title_activity_trapez" >
         </activity>
         <activity
@@ -106,10 +106,31 @@
             android:label="@string/title_activity_kolo_pol_odcg" />
         <activity
             android:name=".kolo.kolo_dl_luka"
-            android:label="@string/title_activity_kolo_dl_luka"></activity>
+            android:label="@string/title_activity_kolo_dl_luka" />
         <activity
             android:name=".kolo.kolo_dl_lukg"
-            android:label="@string/title_activity_kolo_dl_lukg"></activity>
+            android:label="@string/title_activity_kolo_dl_lukg" />
+        <activity
+            android:name=".prostokat.ProstokatActivity"
+            android:label="@string/title_activity_prostokat"></activity>
+        <activity
+            android:name=".prostokat.prostokat_wzory"
+            android:label="@string/title_activity_prostokat_wzory"></activity>
+        <activity
+            android:name=".prostokat.prostokat_poleab"
+            android:label="@string/title_activity_prostokat_poleab"></activity>
+        <activity
+            android:name=".kolo.prostokat_poleda"
+            android:label="@string/title_activity_prostokat_poleda"></activity>
+        <activity
+            android:name=".prostokat.prostokat_poledwh"
+            android:label="@string/title_activity_prostokat_poledwh"></activity>
+        <activity
+            android:name=".prostokat.prostokat_obwod"
+            android:label="@string/title_activity_prostokat_obwod"></activity>
+        <activity
+            android:name=".prostokat.prostokat_przekatna"
+            android:label="@string/title_activity_prostokat_przekatna"></activity>
     </application>
 
 </manifest>

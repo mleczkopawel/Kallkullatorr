@@ -1,4 +1,4 @@
-package com.example.zme_cbr.kallkullatorr;
+package com.example.zme_cbr.kallkullatorr.prostokat;
 
 import android.content.Context;
 import android.content.Intent;
@@ -7,24 +7,35 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
 
-import com.example.zme_cbr.kallkullatorr.kolo.KoloActivity;
-import com.example.zme_cbr.kallkullatorr.kwadrat.KwadratActivity;
-import com.example.zme_cbr.kallkullatorr.trapez.TrapezActivity;
-import com.example.zme_cbr.kallkullatorr.trojkat.TrojkatActivity;
+import com.example.zme_cbr.kallkullatorr.GeometryActivity;
+import com.example.zme_cbr.kallkullatorr.MainActivity;
+import com.example.zme_cbr.kallkullatorr.R;
+import com.example.zme_cbr.kallkullatorr.Settings;
 
-public class GeometryActivity extends AppCompatActivity{
+public class prostokat_przekatna extends AppCompatActivity {
+    TextView textView;
+    EditText editText, editText2;
+    String as, bs;
     Context context;
+    double a, S, b;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_geometry);
+        setContentView(R.layout.activity_prostokat_przekatna);
+        textView = (TextView) findViewById(R.id.textView);
+        editText = (EditText) findViewById(R.id.editText);
+        editText2 = (EditText) findViewById(R.id.editText2);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu, menu);
+
         return true;
     }
 
@@ -34,8 +45,7 @@ public class GeometryActivity extends AppCompatActivity{
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings){
+        if (id == R.id.action_settings) {
             context = getApplicationContext();
             Intent intent = new Intent(context, Settings.class);
             startActivity(intent);
@@ -45,7 +55,7 @@ public class GeometryActivity extends AppCompatActivity{
             Intent intent = new Intent(context, GeometryActivity.class);
             startActivity(intent);
         }
-        if (id == R.id.action_calc){
+        if (id == R.id.action_calc) {
             context = getApplicationContext();
             Intent intent = new Intent(context, MainActivity.class);
             startActivity(intent);
@@ -53,27 +63,20 @@ public class GeometryActivity extends AppCompatActivity{
         return super.onOptionsItemSelected(item);
     }
 
-    public void kwadrat(View view) {
-        context = getApplicationContext();
-        Intent intent = new Intent(context, KwadratActivity.class);
-        startActivity(intent);
-    }
-
-    public void trojkat(View view) {
-        context = getApplicationContext();
-        Intent intent = new Intent(context, TrojkatActivity.class);
-        startActivity(intent);
-    }
-
-    public void trapez(View view) {
-        context = getApplicationContext();
-        Intent intent = new Intent(context, TrapezActivity.class);
-        startActivity(intent);
-    }
-
-    public void kolo(View view) {
-        context = getApplicationContext();
-        Intent intent = new Intent(context, KoloActivity.class);
-        startActivity(intent);
+    public void oblicz(View view) {
+        try {
+            as = editText.getText().toString();
+            a = Integer.valueOf(as);
+        } catch (NumberFormatException as) {
+            return;
+        }
+        try {
+            bs = editText2.getText().toString();
+            b = Integer.valueOf(bs);
+        } catch (NumberFormatException bs) {
+            return;
+        }
+        S = Math.sqrt((a * a) + (b * b));
+        textView.setText(String.valueOf(S) + " cm2");
     }
 }

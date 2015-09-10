@@ -1,63 +1,15 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.zme_cbr.kallkullatorr.GeometryActivity">
-
-
-    <Button
-        android:id="@+id/buttonKw"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:onClick="kwadrat"
-        android:text="@string/kwadrat" />
+    tools:context="com.example.zme_cbr.kallkullatorr.prostokat.ProstokatActivity">
 
     <Button
-        android:id="@+id/buttonTr"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/buttonKw"
-        android:onClick="trojkat"
-        android:text="@string/trojkat" />
-
-    <Button
-        android:id="@+id/buttonTa"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/buttonTr"
-        android:onClick="trapez"
-        android:text="@string/trapez" />
-
-    <Button
-        android:id="@+id/buttonKo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/buttonTa"
-        android:onClick="kolo"
-        android:text="@string/kolo" />
-
-    <Button
-        android:id="@+id/button33"
+        android:id="@+id/button34"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -65,6 +17,72 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/buttonKo"
-        android:text="Prostokąt" />
+        android:layout_alignParentTop="true"
+        android:onClick="wzory"
+        android:text="Wzory" />
+
+    <Button
+        android:id="@+id/button35"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button34"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button34"
+        android:layout_below="@+id/button34"
+        android:onClick="poleab"
+        android:text="Pole (a,b)" />
+
+    <Button
+        android:id="@+id/button36"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button35"
+        android:onClick="poleda"
+        android:text="Pole (d,α°)" />
+
+    <Button
+        android:id="@+id/button37"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button36"
+        android:onClick="poledwh"
+        android:text="Pole (d,w,h)" />
+
+    <Button
+        android:id="@+id/button38"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button37"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button37"
+        android:layout_below="@+id/button37"
+        android:onClick="obwod"
+        android:text="Obwód" />
+
+    <Button
+        android:id="@+id/button39"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button38"
+        android:onClick="przekatna"
+        android:text="Przekątna" />
 </RelativeLayout>

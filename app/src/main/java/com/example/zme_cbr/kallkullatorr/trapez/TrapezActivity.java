@@ -1,10 +1,19 @@
-package com.example.zme_cbr.kallkullatorr;
+package com.example.zme_cbr.kallkullatorr.trapez;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
-import android.view.*;
-import android.widget.*;
-import android.content.*;
+import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
+
+import com.example.zme_cbr.kallkullatorr.GeometryActivity;
+import com.example.zme_cbr.kallkullatorr.MainActivity;
+import com.example.zme_cbr.kallkullatorr.R;
+import com.example.zme_cbr.kallkullatorr.Settings;
 
 public class TrapezActivity extends AppCompatActivity {
     Context context;

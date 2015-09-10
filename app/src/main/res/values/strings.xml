@@ -55,4 +55,11 @@
     <string name="title_activity_kolo_pol_odcg">kolo_pol_odcg</string>
     <string name="title_activity_kolo_dl_luka">kolo_dl_luka</string>
     <string name="title_activity_kolo_dl_lukg">kolo_dl_lukg</string>
+    <string name="title_activity_prostokat">ProstokatActivity</string>
+    <string name="title_activity_prostokat_wzory">prostokat_wzory</string>
+    <string name="title_activity_prostokat_poleab">prostokat_poleab</string>
+    <string name="title_activity_prostokat_poleda">prostokat_poleda</string>
+    <string name="title_activity_prostokat_poledwh">prostokat_poledwh</string>
+    <string name="title_activity_prostokat_obwod">prostokat_obwod</string>
+    <string name="title_activity_prostokat_przekatna">prostokat_przekatna</string>
 </resources>
