@@ -9,18 +9,6 @@
 
 
     <Button
-        android:id="@+id/buttonKw"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:onClick="kwadrat"
-        android:text="@string/kwadrat" />
-
-    <Button
         android:id="@+id/buttonTr"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -57,6 +45,18 @@
         android:text="@string/kolo" />
 
     <Button
+        android:id="@+id/buttonKw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:onClick="kwadrat"
+        android:text="@string/kwadrat" />
+
+    <Button
         android:id="@+id/button33"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
@@ -68,4 +68,5 @@
         android:layout_below="@+id/buttonKo"
         android:onClick="prostokat"
         android:text="Prostokąt" />
+
 </RelativeLayout>
