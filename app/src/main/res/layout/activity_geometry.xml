@@ -66,5 +66,6 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/buttonKo"
+        android:onClick="prostokat"
         android:text="Prostokąt" />
 </RelativeLayout>

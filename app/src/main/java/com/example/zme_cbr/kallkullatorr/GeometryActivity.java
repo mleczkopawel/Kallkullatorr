@@ -10,6 +10,7 @@ import android.view.View;
 
 import com.example.zme_cbr.kallkullatorr.kolo.KoloActivity;
 import com.example.zme_cbr.kallkullatorr.kwadrat.KwadratActivity;
+import com.example.zme_cbr.kallkullatorr.prostokat.ProstokatActivity;
 import com.example.zme_cbr.kallkullatorr.trapez.TrapezActivity;
 import com.example.zme_cbr.kallkullatorr.trojkat.TrojkatActivity;
 
@@ -74,6 +75,12 @@ public class GeometryActivity extends AppCompatActivity{
     public void kolo(View view) {
         context = getApplicationContext();
         Intent intent = new Intent(context, KoloActivity.class);
+        startActivity(intent);
+    }
+
+    public void prostokat(View view) {
+        context = getApplicationContext();
+        Intent intent = new Intent(context, ProstokatActivity.class);
         startActivity(intent);
     }
 }
